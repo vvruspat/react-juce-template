@@ -3,7 +3,6 @@ module.exports = {
   output: {
     path: __dirname + "/build/js",
     filename: "main.js",
-    ecmaVersion: 5,
     sourceMapFilename: "[file].map",
     devtoolModuleFilenameTemplate: (info) =>
       `webpack:///${info.absoluteResourcePath.replace(/\\/g, "/")}`,
