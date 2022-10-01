@@ -7,6 +7,7 @@ module.exports = {
     devtoolModuleFilenameTemplate: (info) =>
       `webpack:///${info.absoluteResourcePath.replace(/\\/g, "/")}`,
   },
+  target: ["web", "es5"],
   devtool: "source-map",
   module: {
     rules: [
