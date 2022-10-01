@@ -15,6 +15,6 @@
   },
   "scripts": {
     "start": "webpack -w --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=development"
   }
 }

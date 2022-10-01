@@ -1,5 +1,5 @@
 {
-  "name": "react-juce-template",
+  "name": "ui",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
@@ -15,6 +15,6 @@
   },
   "scripts": {
     "start": "webpack -w --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=development"
   }
 }
