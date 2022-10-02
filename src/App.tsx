@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { View, Text } from "react-juce";
+import { View, Text } from "react-juce-lib";
 
 const styles = {
   container: {
